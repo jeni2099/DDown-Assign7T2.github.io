@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(p2.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.menu {
+    background: rgb(0, 100, 0);
+    text-align: center;
+}
+
+.menu ul {
+    display: inline-flex;
+    list-style: none;
+    color: whitesmoke;
+}
+
+.menu ul li {
+    padding: 15px;
+    margin: 15px;
+    width: 120px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu ul li:hover {
+     background-color: #2bab0d;
+     border-radius: 20px;
+}
+
+.sub-menu1 {
+    display: none;
+}
+
+.menu ul li:hover .sub-menu1 {
+    display: block;
+    background: rgb(0, 100, 0);
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    text-align: left;
+}
+
+.menu ul li:hover .sub-menu1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu ul li:hover .sub-menu1 ul li {
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    border-bottom: 1px dotted #fff;
+}
+
+.menu ul li:hover .sub-menu1 ul li a:hover {
+    color: #b2ff00;
+}
+
+.fa-angle-right {
+    float: right;
+}
+
+.sub-menu2 {
+    display: none;
+}
+
+.hover1:hover .sub-menu2 {
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(0, 100, 0);
+}
+
+
+
+
+
+
+
